@@ -1,6 +1,21 @@
-public struct Redactable {
-    public private(set) var text = "Hello, World!"
+import Foundation
 
-    public init() {
+public protocol Redactable {
+    static var placeholder: Self { get }
+}
+
+extension Array: Redactable where Element: Redactable {
+    
+    public static var placeholder: [Element] {
+        return [.placeholder]
     }
+    
+}
+
+extension String: Redactable {
+    
+    public static var placeholder: String {
+        return "Placeholder"
+    }
+    
 }
