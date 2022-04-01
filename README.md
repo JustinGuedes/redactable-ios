@@ -1,4 +1,10 @@
 # Redactable
+
+[![Platforms](https://img.shields.io/badge/Platforms-macOS_iOS-green?style=flat-square)](https://img.shields.io/badge/Platforms-macOS_iOS_tvOS_watchOS_Linux_Windows-Green?style=flat-square)
+[![Swift Package Manager](https://img.shields.io/badge/spm-compatible-orange?style=flat-square)](https://img.shields.io/badge/spm-compatible-orange?style=flat-square)
+[![CocoaPods Compatible](https://img.shields.io/cocoapods/v/Redactable.svg?style=flat-square)](https://img.shields.io/cocoapods/v/Redactable.svg)
+[![Carthage Compatible](https://img.shields.io/badge/carthage-compatible-orange.svg?style=flat-square)](https://github.com/Carthage/Carthage)
+
 A convenient library to show a shimmer effect while loading data. Easily convert your current view with a slick skeleton loading animation just by wrapping your view and conforming to a protocol.
 
 ![Redactable Example](/Example/example.gif)
